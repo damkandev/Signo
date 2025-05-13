@@ -1,0 +1,9 @@
+[project]
+name = "signo"
+version = "0.1.0"
+description = "Signo is an MCP (Model Context Protocol) server built with Python and FastMCP, designed to automate the creation and management of contracts by connecting structured data sources."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mcp[cli]>=1.8.1",
+]
